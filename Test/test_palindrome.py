@@ -1,3 +1,4 @@
+import pytest
 from palindrome import is_palindrome
 
 def test_is_palindrome_accepts_one_str():
