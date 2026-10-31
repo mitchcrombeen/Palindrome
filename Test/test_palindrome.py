@@ -20,3 +20,7 @@ def test_is_palindrome_returns_true_given_a():
 def test_is_palindrome_returns_true_given_bb():
     """is_palindrome returns True if called with "bb"."""
     assert is_palindrome("b") is True
+
+def test_is_palindrome_returns_false_given_abc():
+    """is_palindrome returns False is called with "abc"."""
+    assert is_palindrome("abc") is False
