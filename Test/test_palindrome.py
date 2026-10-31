@@ -13,10 +13,10 @@ def test_is_palindrome_returns_false_when_given_empty_str():
     """is_palindrome returns False when called with an empty string."""
     assert is_palindrome('') is False
 
-def test_is_palindrome_returns_True_given_a():
+def test_is_palindrome_returns_true_given_a():
     """is_palindrome returns True if called with 'a'."""
     assert is_palindrome("a") is True
 
-def test_is_palindrome_returns_True_given_bb():
+def test_is_palindrome_returns_true_given_bb():
     """is_palindrome returns True if called with "bb"."""
     assert is_palindrome("b") is True
