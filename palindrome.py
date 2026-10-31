@@ -4,5 +4,6 @@ def is_palindrome(phrase):
     """Return True if a text reads the same forwards and backwards"""
     if not isinstance(phrase,str):
         raise ValueError("The phrase must be a string")
-    elif len(phrase) == 0:
+    if len(phrase) == 0:
         return False
+    return True
