@@ -16,3 +16,7 @@ def test_is_palindrome_returns_false_when_given_empty_str():
 def test_is_palindrome_returns_True_given_a():
     """is_palindrome returns True if called with 'a'."""
     assert is_palindrome("a") is True
+
+def test_is_palindrome_returns_True_given_bb():
+    """is_palindrome returns True if called with "bb"."""
+    assert is_palindrome("b") is True
