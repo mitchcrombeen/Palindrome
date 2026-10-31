@@ -28,3 +28,7 @@ def test_is_palindrome_returns_false_given_abc():
 def test_is_palindrome_returns_true_given_laval():
     """is_palindrome returns True when called with "laval"."""
     assert is_palindrome("laval") is True
+
+def test_is_palindrome_returns_false_given_toronto():
+    """is_palindrome returns False when called with "toronto"."""
+    assert is_palindrome("toronto") is False
