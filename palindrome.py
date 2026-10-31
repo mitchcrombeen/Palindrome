@@ -9,8 +9,8 @@ def is_palindrome(phrase):
         return False
     word = deque(phrase)
     while len(word) >1:
-        left = word.popleft()
-        right = word.pop()
+        left = word.popleft().lower()
+        right = word.pop().lower()
         if left != right:
             return False
     return True
